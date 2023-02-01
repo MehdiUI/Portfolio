@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rajdhani&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'rajdhani', sans-serif; */
+
+
+
+}
+h2{
+    font-size: 64px;
+    font-weight: 300;
+    padding-top: 3px;
+}
+body{
+    font-family: 'rajdhani', sans-serif;
+    overflow: hidden;
+    background-color:  #1F2126 ;
+}
+.container{
+    width: 100% ;
+    min-width: 100vh;
+    background-color: aliceblue;
+    
+}
+
+nav{
+    display: flex;
+    width:80% ;
+    justify-content: space-around;
+    z-index: 111;
+    background-color: #96865D;
+    position: absolute;
+    top: 30px;
+    border-radius: 40px;
+    margin-left: 200px; 
+    height: 50px;
+
+}
+
+.logo{
+    display: flex;
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+    letter-spacing: 3px;
+    padding-top: 6px;
+}
+.navItems{
+    display: flex;
+}
+
+.navItems li{
+    list-style-type: none;
+    margin: 0 15px;
+   padding-top: 9px;
+}
+
+.navItems li a {
+    font-size: 25px;
+    color: black;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navItems li:hover a,
+.links a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.links a{
+    font-size: 30px;
+    color: black;
+    margin: 25px 10px;
+}
+.links a i{
+    padding-top: 9px;
+}
+.nom{
+    cursor: pointer;
+    position: absolute;
+    width: 834px;
+    height: 52px;
+    left: 364px;
+    bottom: 26px;
+    font-family: 'Abril Fatface';
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 100px;
+    color: #EBF0FF;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1563px;
+    height: 117px;
+    left: 178px;
+    bottom: 36px;
+    text-align: center;
+    border: 3px solid #EBF0FF;
+    border-radius: 50px;
+}
+
+.nom a{
+    text-decoration: none;
+    color: #EBF0FF;
+}
+.nom a:hover{
+    color: #96865D;
+}
+.nom:hover{
+    color: #96865D;
+    border: 3px solid #96865D;
+}
+
+.wrapper {
+    
+    display: block;
+    width: 100%;
+    height: 250vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    overflow: hidden;
+    background-color: #1F2126;
+    padding-left: 600px;
+    font-family: 'abril fatface';
+}
+
+.cols{
+    width: 50%;
+    background-color: #1F2126;
+}
+.cols0{
+    width: 60;
+}
+
+.topline{
+    display: block;
+    position: relative;
+    font-size: 5em;
+    letter-spacing: 2px;
+    color: white;
+    height: 10%;
+    margin: 100px;
+    font-weight: 500;
+    padding-top: 100px;
+    left : -100px;
+    justify-content: baseline;
+}
+
+h1{
+    display:flex;
+    font-size: 5em;
+    font-weight: 500;
+    color: white; 
+    margin-top: -19px;
+    margin-left: -30px;
+}
+
+.multitext{
+    color: white;
+    margin-left: 300PX;
+    
+
+}
+
+p{
+    display: block;
+    width: 90%;
+    font-size: 1.2em;
+    color: white
+}
+
+.btns{
+    width: 100%;
+    position: relative;
+    left: -220px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    background-color: #1F2126;
+    padding: 8px  14px;
+    margin: 40px 5px;
+    letter-spacing: 2px;
+    box-shadow: 0 10px 7px rgba(0, 0, 0, 4) ;
+    border: 3px solid  #EBF0FF;
+    border-radius: 30px;
+    justify-content: space-between;
+
+ 
+}
+button:hover{
+        background-color: #96865D;
+
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+      }
+
+
+@keyframes button {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+  button:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+  }
+  button::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
+  
+  button:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+  }
+
+@media screen and (min-width:1420px) and (max-width:1920px) {
+    .nom{
+        width:80%;
+        margin: 0 auto;
+    }
+
+    .topline{
+        font-size: 4rem;
+        margin-left:-50px;
+    }
+
+   .multitext{
+    font-size: 4rem;
+    margin-left: 100px;
+    margin-top: -12px;
+
+}
+}

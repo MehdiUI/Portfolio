@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rajdhani&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'rajdhani', sans-serif; */
+
+
+
+}
+h2{
+    font-size: 64px;
+    font-weight: 300;
+    padding-top: 3px;
+}
+body{
+    font-family: 'rajdhani', sans-serif;
+    background-color:  #1F2126 ;
+    overflow: hidden;
+}
+.container{
+    width: 100% ;
+    min-width: 100vh;
+    
+}
+
+nav{
+    display: flex;
+    width:80% ;
+    justify-content: space-around;
+    z-index: 111;
+    background-color: #96865D;
+    position: absolute;
+    top: 30px;
+    border-radius: 40px;
+    margin-left: 200px; 
+    height: 50px;
+
+}
+
+.logo{
+    display: flex;
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+    letter-spacing: 3px;
+    padding-top: 6px;
+}
+.navItems{
+    display: flex;
+}
+
+.navItems li{
+    list-style-type: none;
+    margin: 0 15px;
+   padding-top: 9px;
+}
+
+.navItems li a {
+    font-size: 25px;
+    color: black;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navItems li:hover a,
+.links a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.links a{
+    font-size: 30px;
+    color: black;
+    margin: 25px 10px;
+}
+.links a i{
+    padding-top: 9px;
+}
+Img{
+    margin-left: 800px;
+   
+}
+
+
+p{
+    position: absolute;
+    width: 700px;
+    height: 503px;
+    left: 100px;
+    top: 230px;
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 41px;
+    text-align: justify;
+    
+    color: #FFFFFF;
+    
+}
+.maj{
+    position: relative;
+
+    left: 103px;
+    top: 850px;
+    font-size: 30px;
+    color: #EBF0FF;
+}
+Img{
+    margin-left: 00px;
+    margin-top: 200px;
+    height: 600px;
+    width: 600px;
+}
+
+/* .ai{
+    box-sizing: border-box;
+
+position: absolute;
+width: 128px;
+height: 128px;
+left: 640px;
+top: 300px;
+font-family: 'Abrilfatface';
+font-size: 80px;
+display: flex;
+padding-left: 20px;
+padding-top: 10px;
+color: #FF7F18;
+background: #390000;
+border: 4px solid #FF7F18;
+border-radius: 3px;
+} */
+
+/* .ps{
+    box-sizing: border-box;
+
+position: absolute;
+width: 128px;
+height: 128px;
+left: 840px;
+top: 300px;
+font-family: 'Abrilfatface';
+font-size: 80px;
+display: flex;
+padding-left: 20px;
+padding-top: 10px;
+color: #00D4FF ;
+border-radius: 3px;
+background: #001834;
+border: 4px solid #00D4FF;
+border-radius: 3px;
+} */
+
+/* .pr{
+    box-sizing: border-box;
+
+position: absolute;
+width: 128px;
+height: 128px;
+left: 1040px;
+top: 300px;
+padding-left: 20px;
+padding-top: 10px;
+background: #2D1E33;
+border: 4px solid #D555FF;
+border-radius: 3px;
+position: absolute;
+color: #D555FF;
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: 400;
+font-size: 65.6327px;
+line-height: 89px;
+
+*/
+
+
+ .figma{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 620px;
+    top: 350px;
+  }
+
+
+    /* AFTER EFFECT */
+.Ae {
+    width: 128px;
+    height: 128px;
+    background: #07182E;
+    position: absolute;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    left: 1238px;
+    top: 300px;
+  }
+  
+  .Ae h2 {
+    z-index: 1;
+    color: white;
+    font-size: 2em;
+    font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: 400;
+font-size: 65.6327px;
+line-height: 89px;
+color: #9999FF;
+padding-bottom: 10px;
+   
+  }
+  
+  .Ae::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    /* background-image: linear-gradient(180deg, #9999FF, #9999FF); */
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+  }
+  
+  @keyframes rotBGimg {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .Ae::after {
+    content: '';
+    position: absolute;
+    background: #07182E;
+    ;
+    inset: 5px;
+    border-radius: 15px;
+  }  
+  .Ae:hover:before {
+    background-image: linear-gradient(180deg, #9999FF, #9999FF);
+    animation: rotBGimg 3.5s linear infinite;
+  }
+  
+    /* PREMIERE PRO */
+
+  .Pr {
+    width: 128px;
+    height: 128px;
+    background: #2D1E33;
+    position: absolute;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    left: 1040px;
+    top: 300px
+  }
+  
+  .Pr h2 {
+    z-index: 1;
+    color: #D555FF;
+    font-size: 2em;
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65.6327px;
+    line-height: 89px;
+    padding-bottom: 10px;
+   
+  }
+  
+  .Pr::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    /* background-image: linear-gradient(180deg, #D555FF, #D555FF); */
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+  }
+  
+  @keyframes rotBGimg {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .Pr::after {
+    content: '';
+    position: absolute;
+    background: #2D1E33;
+    ;
+    inset: 5px;
+    border-radius: 15px;
+  }  
+  .Pr:hover:before {
+    background-image: linear-gradient(180deg, #D555FF, #D555FF);
+    animation: rotBGimg 3.5s linear infinite;
+  }
+
+  /* ILLUSTRATOR */
+  .ai {
+    width: 128px;
+    height: 128px;
+    background: #390000;
+    position: absolute;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    left: 640px;
+    top: 300px;
+  }
+  
+  .ai h2 {
+    z-index: 1;
+    color: #FF7F18;
+    font-size: 2em;
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65.6327px;
+    line-height: 89px;
+    padding-bottom: 10px;
+   
+  }
+  
+  .ai::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    /* background-image: linear-gradient(180deg, #FF7F18, #FF7F18); */
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+  }
+  
+  @keyframes rotBGimg {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .ai::after {
+    content: '';
+    position: absolute;
+    background: #390000;
+    inset: 5px;
+    border-radius: 15px;
+  }  
+  .ai:hover:before {
+    background-image: linear-gradient(180deg, #FF7F18, #FF7F18);
+    animation: rotBGimg 2s linear infinite;
+    }
+  
+  
+  /* PHOTOSHOP */
+  .ps {
+    width: 128px;
+    height: 128px;
+    background: #001834;
+    position: absolute;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    left: 840px;
+    top: 300px;
+  }
+  
+  .ps h2 {
+    z-index: 1;
+    color: #00D4FF;
+    font-size: 2em;
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65.6327px;
+    line-height: 89px;
+    padding-bottom: 10px;
+   
+  }
+  
+  .ps::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    /* background-image: linear-gradient(180deg, #00D4FF, #00D4FF); */
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+  }
+  
+  @keyframes rotBGimg {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .ps::after {
+    content: '';
+    position: absolute;
+    background: #001834;
+    ;
+    inset: 5px;
+    border-radius: 15px;
+
+  }  
+  .ps:hover:before {
+    background-image: linear-gradient(180deg, #00D4FF, #00D4FF);
+    animation: rotBGimg 3.5s linear infinite;
+  }
+
+ 
